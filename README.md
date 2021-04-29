@@ -14,10 +14,19 @@ DELETE FROM emptest
 WHERE deptno=30;
 
 ### 3. Basic SELECT structure 
-SELECT
+SELECT  
 FROM  
 WHERE  
 GROUP BY  
 HAVING  
 ORDER BY  
-(SELECT and FORM clause are mandatory, all other clauses are optional and to be used as required by query result)  
+(SELECT and FORM clause are mandatory, all other clauses are optional and to be used as required by query result)
+
+SELECT DISTINCT job,deptno  
+FROM emp  
+ORDER BY deptno, job;
+
+SELECT ename, sal  
+FROM emp  
+ORDER BY 2 desc, 1;
+
