@@ -14,10 +14,10 @@ DELETE FROM emptest
 WHERE deptno=30;
 
 ### 3. Basic SELECT structure 
-SELECT --------<column list, expressions, literals>   
-FROM ----------<table list>  
-WHERE ---------<filter conditions with AND/OR/NOT logical operators> 
-GROUP BY ------<column list for aggregate functions COUNT/SUM/MIN/MAX/AVG etc.>  
-HAVING --------<filter conditions for grouping results>  
-ORDER BY ------<column list for sorting result set>  
+SELECT
+FROM  
+WHERE  
+GROUP BY  
+HAVING  
+ORDER BY  
 (SELECT and FORM clause are mandatory, all other clauses are optional and to be used as required by query result)  
