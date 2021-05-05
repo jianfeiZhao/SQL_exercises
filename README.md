@@ -14,12 +14,12 @@ DELETE FROM emptest
 WHERE deptno=30;
 
 ### 3. Basic SELECT structure 
-SELECT  
-FROM  
-WHERE  
-GROUP BY  
-HAVING  
-ORDER BY  
+**SELECT**  
+**FROM**  
+**WHERE**  
+**GROUP BY**  
+**HAVING**  
+**ORDER BY**  
 (SELECT and FORM clause are mandatory, all other clauses are optional and to be used as required by query result)
 
 SELECT DISTINCT job,deptno  
