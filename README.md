@@ -1,6 +1,8 @@
 # SQL_exercises
 from q0 to q10
 
+https://github.com/jianfeiZhao/SQL_exercises#1-update-statement
+
 ### 1. UPDATE Statement
 ```
 UPDATE emptest  
