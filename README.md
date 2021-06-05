@@ -32,4 +32,23 @@ ORDER BY deptno, job;
 SELECT ename, sal  
 FROM emp  
 ORDER BY 2 desc, 1;
+
+SELECT ename, sal
+FROM emp
+WHERE sal BETWEEN 4500 AND 9000
+ORDER BY sal;
+
+SELECT ename, deptno
+FROM emp
+WHERE deptno IN (10,30)
+ORDER BY 2;
+
+SELECT ename, deptno
+FROM emp
+WHERE ename like '%A%'
+ORDER BY 1;
+
+SELECT ename, sal, comm
+FROM emp
+WHERE comm IS NULL;
 ```
