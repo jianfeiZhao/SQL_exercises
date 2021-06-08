@@ -2,6 +2,8 @@
 from q0 to q10
 
 * [UPDATE Statement](https://github.com/jianfeiZhao/SQL_exercises#1-update-statement)
+* [DELETE Statement](https://github.com/jianfeiZhao/SQL_exercises#2-delete-statement)
+* [SELECT Structure](https://github.com/jianfeiZhao/SQL_exercises#3-basic-select-structure)
 
 ### 1. UPDATE Statement
 ```
