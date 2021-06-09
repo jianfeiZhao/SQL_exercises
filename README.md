@@ -56,3 +56,13 @@ SELECT ename, sal, comm
 FROM emp
 WHERE comm IS NULL;
 ```
+### 4. SQL functions
+```
+SELECT ename, lower(ename), initcap(ename), substr(ename,1,2), substr(ename,-3,2), substr(ename,-2)
+FROM emp
+WHERE UPPER(JOB)='CLERK';
+
+SELECT  ename, LENGTH(ename), sal, LPAD(sal,10,0)
+FROM emp
+WHERE UPPER(JOB)='CLERK';
+```
