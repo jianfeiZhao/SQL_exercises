@@ -4,6 +4,7 @@ from q0 to q10
 * [UPDATE Statement](https://github.com/jianfeiZhao/SQL_exercises#1-update-statement)
 * [DELETE Statement](https://github.com/jianfeiZhao/SQL_exercises#2-delete-statement)
 * [SELECT Structure](https://github.com/jianfeiZhao/SQL_exercises#3-basic-select-structure)
+* [SQL Functions](https://github.com/jianfeiZhao/SQL_exercises#4-sql-functions)
 
 ### 1. UPDATE Statement
 ```
@@ -56,13 +57,22 @@ SELECT ename, sal, comm
 FROM emp
 WHERE comm IS NULL;
 ```
-### 4. SQL functions
+### 4. SQL Functions
 ```
 SELECT ename, lower(ename), initcap(ename), substr(ename,1,2), substr(ename,-3,2), substr(ename,-2)
 FROM emp
 WHERE UPPER(JOB)='CLERK';
 
-SELECT  ename, LENGTH(ename), sal, LPAD(sal,10,0)
+SELECT ename, LENGTH(ename), sal, LPAD(sal,10,0)
 FROM emp
 WHERE UPPER(JOB)='CLERK';
+```
+#### Number Functions
+```
+SELECT ROUND(45.926,2), ROUND(45.926) FROM dual;
+
+SELECT TRUNC(45.926,2), TRUNC(45.926) FROM dual;
+
+SELECT ename, sal, MOD(sal, 1000)
+FROM emp;
 ```
