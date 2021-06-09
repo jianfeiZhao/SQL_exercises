@@ -6,7 +6,7 @@ from q0 to q10
 * [SELECT Structure](https://github.com/jianfeiZhao/SQL_exercises#3-basic-select-structure)
 * [SQL Functions](https://github.com/jianfeiZhao/SQL_exercises#4-sql-functions)
 
-### 1. UPDATE Statement
+## 1. UPDATE Statement
 ```
 UPDATE emptest  
 SET deptno=30  
@@ -15,12 +15,12 @@ WHERE empno=7369;
 UPDATE emptest  
 SET comm=nvl(comm,0)+100 , ename=INITCAP(ename);
 ```
-### 2. DELETE Statement
+## 2. DELETE Statement
 ```
 DELETE FROM emptest  
 WHERE deptno=30;
 ```
-### 3. Basic SELECT structure 
+## 3. Basic SELECT structure 
 ```
 SELECT     <>
 FROM       <>
@@ -57,7 +57,7 @@ SELECT ename, sal, comm
 FROM emp
 WHERE comm IS NULL;
 ```
-### 4. SQL Functions
+## 4. SQL Functions
 ```
 SELECT ename, lower(ename), initcap(ename), substr(ename,1,2), substr(ename,-3,2), substr(ename,-2)
 FROM emp
@@ -67,7 +67,7 @@ SELECT ename, LENGTH(ename), sal, LPAD(sal,10,0)
 FROM emp
 WHERE UPPER(JOB)='CLERK';
 ```
-#### Number Functions
+### Number Functions
 ```
 SELECT ROUND(45.926,2), ROUND(45.926) FROM dual;
 
