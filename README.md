@@ -76,3 +76,15 @@ SELECT TRUNC(45.926,2), TRUNC(45.926) FROM dual;
 SELECT ename, sal, MOD(sal, 1000)
 FROM emp;
 ```
+### Arithmetic with Data
+```
+SELECT sysdate 
+FROM DUAL;
+
+SELECT ename, hiredate, sysdate-hiredate "No of days at work"
+FROM emp;
+
+SELECT ename, hiredate, (sysdate-hiredate)/365  "No of years at work"
+FROM emp;
+```
+### Date Functions
