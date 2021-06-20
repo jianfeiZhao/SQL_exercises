@@ -88,4 +88,4 @@ SELECT ename, hiredate, (sysdate-hiredate)/365  "No of years at work"
 FROM emp;
 ```
 ### Date Functions
-![](https://github.com/jianfeiZhao/Embedded-Sentry/blob/master/images/acc.png)
+![]()
